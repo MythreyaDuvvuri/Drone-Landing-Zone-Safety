@@ -2,7 +2,7 @@
 Drone Landing Zone Safety Prediction Using Machine Learning
 A Logistic Regression model to predict whether a zone is safe to land the drone. It uses terrain features derived from aerial imagery to support drone landing operations. 
 
-"""Repository Structure/
+```Repository Structure/
 ├──drone_landing_log_reg_predictor.pkl
 ├──drone_landing_log_reg_scaler.pkl
 ├──Landing Zone Dataset - Sheet1.csv
@@ -15,10 +15,9 @@ A Logistic Regression model to predict whether a zone is safe to land the drone.
 ├──landingPredicting.py
 ├──Explanation video.mp4
 └──README.md
-"""
-README.txt - This document
+```
 
-Feature Schema 
+```Feature Schema 
 In order: 
 slope_deg(float): slope of the surface to land 
 roughness(float): texture of the surface. 0 means perfectly smooth 
@@ -29,6 +28,7 @@ brightness_std(float): the standard deviation of brightness in the image. It rep
 0 means the zone is of same material uniformly. Higher values indicate the floor is made of multiple materials 
 object_density(float): number of objects present in image. if there are multiple objects, landing may become unsafe 
 confidence_score(float): confidence in detecting the features from image. Higher confidence score means the other feature values are more reliable 
+```
 
 Preprocessing:
 drone_landing_log_reg_scaler.pkl is used to normalize the data
