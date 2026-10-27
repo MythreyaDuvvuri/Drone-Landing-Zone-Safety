@@ -44,7 +44,7 @@ Install these packages to ensure dependencies:
 pip install numpy pandas scikit-learn matplotlib joblib
 
 Sample code:
-
+```
 import numpy as np
 import pandas as pd
 import import landingPredicting
@@ -69,7 +69,7 @@ scaler = joblib.load(scaler_name)
 values = df.iloc[51:91]
 values_scaled = scaler.transform(values)
 preds = model.predict(values_scaled)
-
+```
 For accurate predictions, ensure the data is in the right schema and is within the safe ranges
 
 
