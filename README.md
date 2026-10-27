@@ -18,17 +18,17 @@ A Logistic Regression model to predict whether a zone is safe to land the drone.
 """
 README.txt - This document
 
-Feature Schema
-In order:
-slope_deg(float): slope of the surface to land
+Feature Schema 
+In order: 
+slope_deg(float): slope of the surface to land 
 roughness(float): texture of the surface. 0 means perfectly smooth 
-edge_density(float): represents density of sharp edges in the image. 0 means no edges detected
-ndvi_mean(float): represents the ndvi value used to identify foliage/vegetation in image. 0 means no foliage detected
-shadow_fraction(float): shadows present in image. Shadows in the image can cause detecting color and edges harder. 0 means no shadows
+edge_density(float): represents density of sharp edges in the image. 0 means no edges detected 
+ndvi_mean(float): represents the ndvi value used to identify foliage/vegetation in image. 0 means no foliage detected 
+shadow_fraction(float): shadows present in image. Shadows in the image can cause detecting color and edges harder. 0 means no shadows 
 brightness_std(float): the standard deviation of brightness in the image. It represents different materials having different brightness. 
 0 means the zone is of same material uniformly. Higher values indicate the floor is made of multiple materials 
-object_density(float): number of objects present in image. if there are multiple objects, landing may become unsafe
-confidence_score(float): confidence in detecting the features from image. Higher confidence score means the other feature values are more reliable
+object_density(float): number of objects present in image. if there are multiple objects, landing may become unsafe 
+confidence_score(float): confidence in detecting the features from image. Higher confidence score means the other feature values are more reliable 
 
 Preprocessing:
 drone_landing_log_reg_scaler.pkl is used to normalize the data
