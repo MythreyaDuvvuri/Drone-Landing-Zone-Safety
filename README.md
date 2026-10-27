@@ -2,18 +2,18 @@
 Drone Landing Zone Safety Prediction Using Machine Learning
 A Logistic Regression model to predict whether a zone is safe to land the drone. It uses terrain features derived from aerial imagery to support drone landing operations. 
 
-"""Repository Structure
-├──drone_landing_log_reg_predictor.pkl - The Logistic Regression model used to predict
-├──drone_landing_log_reg_scaler.pkl - The fitted scaler to normalize feature values
-├──Landing Zone Dataset - Sheet1.csv - The data on which the model is trained on
-├──Logistic Regression Test Metrics.csv - The test metrics of the model
-├──Logistic Regression ROC.png - The ROC curve of the model
-├──Pred Heatmap.png - The heatmap of predictions on test split
-├──True Heatmap.png - The heatmap of true labels of test split
-├──Exploration.ipynb - The notebook containing data exploration on the dataset
-├──Model validating.ipynb - The notebook containing model validation and training
-├──landingPredicting.py - A script containing helpful functions
-├──Explanation video.mp4 - Video showing the files included and the process used to train the model
+"""Repository Structure/
+├──drone_landing_log_reg_predictor.pkl
+├──drone_landing_log_reg_scaler.pkl
+├──Landing Zone Dataset - Sheet1.csv
+├──Logistic Regression Test Metrics.csv
+├──Logistic Regression ROC.png
+├──Pred Heatmap.png
+├──True Heatmap.png
+├──Exploration.ipynb
+├──Model validating.ipynb
+├──landingPredicting.py
+├──Explanation video.mp4
 └──README.md
 """
 README.txt - This document
