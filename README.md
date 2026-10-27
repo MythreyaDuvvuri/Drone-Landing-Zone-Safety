@@ -14,8 +14,10 @@ A Logistic Regression model to predict whether a zone is safe to land the drone.
 ├──Model validating.ipynb - The notebook containing model validation and training
 ├──landingPredicting.py - A script containing helpful functions
 ├──Explanation video.mp4 - Video showing the files included and the process used to train the model
-README.txt - This document
+└──README.md
 """
+README.txt - This document
+
 Feature Schema
 In order:
 slope_deg(float): slope of the surface to land
